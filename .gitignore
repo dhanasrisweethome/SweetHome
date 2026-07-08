@@ -1,0 +1,62 @@
+# ==========================
+# Environment & Secrets
+# ==========================
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# ==========================
+# Dependencies
+# ==========================
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# Uploads / User-generated content
+# ==========================
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Build / Cache
+# ==========================
+dist/
+build/
+.cache/
+.tmp/
+
+# ==========================
+# Editor / IDE
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing / Coverage
+# ==========================
+coverage/
+
+# ==========================
+# Deployment
+# ==========================
+.vercel
+.netlify
